@@ -1,0 +1,76 @@
+h1, p, li {
+    border: 1px dashed ;
+}
+
+p {
+    text-align: solid;
+} 
+
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: magenta;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    word-spacing: 30px;
+    letter-spacing: 20px;
+    font-family: poppins;
+
+}
+
+.chichi {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.chichi:nth-child(4){
+    background: red;
+
+}
+
+section h1+p {
+font-size: 35px;
+color: green;
+}
+
+.model {
+    height: 100px;
+    width: 100px;
+    border: 1px solid tomato;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.bolu {
+    border: 2px solid;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+.one, .two, .three {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+    visibility: hidden;
+}
+
+.three {
+    background-color: green;
+}
